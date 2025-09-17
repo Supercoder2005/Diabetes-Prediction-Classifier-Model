@@ -1,47 +1,39 @@
-**🩺 Diabetes Prediction using Machine Learning**
+# 🩺 Diabetes Prediction using Machine Learning  
 
-📌 Overview
+## 📌 Overview  
+This project predicts the likelihood of diabetes in patients using machine learning models. The notebook includes **data preprocessing, exploratory data analysis (EDA), model training, and evaluation** to identify the most effective predictive model.  
 
-This project predicts the likelihood of diabetes in patients using machine learning models. The notebook includes data preprocessing, exploratory data analysis (EDA), model training, and evaluation to identify the most effective predictive model.
+## 📊 Dataset  
+The dataset used is the **Pima Indians Diabetes Dataset**, which contains medical diagnostic measurements for women of Pima Indian heritage.  
+- Features include **pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age**.  
+- Target: **Outcome (0 = No Diabetes, 1 = Diabetes)**  
 
-**📊 Dataset**
+## 🔎 Methodology  
+1. **Data Preprocessing**  
+   - Handling missing/zero values  
+   - Normalization & feature scaling  
 
-The dataset used is the Pima Indians Diabetes Dataset, which contains medical diagnostic measurements for women of Pima Indian heritage.
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualizations of feature distributions  
+   - Correlation heatmap  
 
-Features include pregnancies, glucose level, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, and age.
+3. **Model Training**  
+   - Multiple ML models implemented (e.g., Logistic Regression, Decision Tree, Random Forest, SVM, KNN)  
+   - Hyperparameter tuning  
 
-Target: Outcome (0 = No Diabetes, 1 = Diabetes)
+4. **Model Evaluation**  
+   - Accuracy, Precision, Recall, F1-score  
+   - Confusion Matrix  
 
-**🔎 Methodology**
+## 🛠️ Tech Stack  
+- **Python**  
+- **Jupyter Notebook**  
+- **Libraries**:  
+  - `numpy`  
+  - `pandas`  
+  - `matplotlib`  
+  - `seaborn`  
+  - `scikit-learn`  
 
--Data Preprocessing
-
--Handling missing/zero values
-
--Normalization & feature scaling
-
--Exploratory Data Analysis (EDA)
-
--Visualizations of feature distributions
-
--Model Training
-
--Model Evaluation
-
-**🛠️ Tech Stack**
-
--Python
-
--Jupyter Notebook
-
-**Libraries:**
-
--numpy
-
--pandas
-
--matplotlib
-
--seaborn
-
--scikit-learn
+   git clone https://github.com/your-username/diabetes-prediction.git
+   cd diabetes-prediction
